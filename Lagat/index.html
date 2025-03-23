@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Webpage</title>
+</head>
+<body>
+    <br>
+    <!-- Ordered list with Roman numerals -->
+    <h1>Ordered list with roman numerals</h1>
+    <ol type="i">    
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+        <li>Fifth</li>
+    </ol>
+    <h3>External image</h3>
+    <img src="https://images.pexels.com/photos/27597387/pexels-photo-27597387/free-photo-of-a-woman-in-a-red-and-black-plaid-dress.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A Kenyan girl" width="400" height="500">
+<!--Table of contacts-->
+<h2>Contacts table</h2>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Abdi Rahman</td>
+        <td>5854-30100</td>
+        <td>0755 057120</td>
+        <td>Abdirah@gmail.com</td>
+        <tr>
+            <td>Komen Bett</td>
+            <td>4846-00100</td>
+            <td>0759 654321</td>
+            <td>Komenbet3@gmail.com</td>
+            <tr>
+                <td>Jane Obura</td>
+                <td>80-30100</td>
+                <td>0700 944327</td>
+                <td>Jobura9@gmail.com</td>
+                <tr>
+                    <td>Anitah Mswafari</td>
+                    <td>428-30100</td>
+                    <td>0790 811041</td>
+                    <td>Anitafari@gmail.com</td>
+                    <tr>
+                        <td>Michelle Too</td>
+                        <td>3320-00100</td>
+                        <td>0786 449024</td>
+                        <td>Michtoo2@gmail.com</td>
+                    </tr>
+                </table>
+
+                <!--Registration form-->
+                <h2>Registration form</h2>
+                <form action="index.html" method="post">
+                    <!--Name Field-->
+                    <label for="First name">First name:</label><br>
+                    <input type="text" id="First name" name="First name" placeholder="Enter your first name" required><br><br>
+                    <!--Email Field-->
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                    <!--Address Field-->
+                    <label for="password">Address:</label><br>
+                    <input type="password" id="Password" name="Password" placeholder="Enter your password" required><br><br>
+                    <!--Date Field-->
+                    <label for="D">Date:</label><br>
+                    <input type="date" id="DoB" name="DoB" required><br><br>
+                    <!--Dropdown Field-->
+                    <label for="country">Country:</label><br>
+                    <select id="country" name="country" required>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Lesotho">Lesotho</option>
+                        <option value="Congo">Congo</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Rwanda">Rwanda</option>
+                    </select><br><br>
+                    <!--Radio Button-->
+                    <label>Gender:</label>
+                    <input type="radio" id="male"name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female"name="gender" value="female" required>
+                    <label for="female">Female</label><br>
+                    <!--Checkboxes-->
+                    <label for="subscribenewsletter"><h4>Subscribe to newsletter:</h4></label>
+                    <input type="checkbox" id="subscribenewsletter" name="subscribenewsletter" value="yes"><br><br>
+                    <!--Submit button-->
+                    <input type="submit" id="subscribe" name="subscribe">
+                </form>
+</body>
+</html>
